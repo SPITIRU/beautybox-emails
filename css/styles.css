@@ -1402,8 +1402,17 @@ table.button table td {
 .bd-top {
   border-top: 1px solid #e0e0e0; }
 
+.bd-left {
+  border-left: 1px solid #e0e0e0; }
+
+.bd-right {
+  border-right: 1px solid #e0e0e0; }
+
 .bd-bottom {
   border-bottom: 1px solid #e0e0e0; }
+
+.bd-full {
+  border: 1px solid #e0e0e0; }
 
 .bb-body {
   padding: 10px 0; }
@@ -1413,3 +1422,46 @@ table.button table td {
 
 .button {
   border-radius: 2px; }
+
+.dot {
+  padding: 3px;
+  background-color: yellow;
+  font-size: 2px;
+  vertical-align: middle;
+  border-radius: 50%; }
+
+.h1 {
+  font-size: 36px; }
+
+.text-accent {
+  color: #ff8272; }
+
+.text-center {
+  text-align: center !important; }
+
+.color-gray {
+  color: #adadad; }
+
+.color-dark {
+  color: #212121; }
+
+.a-style {
+  text-decoration: underline; }
+
+.pl-0 {
+  padding-left: 0 !important; }
+
+.padding-castom {
+  padding-bottom: 10px !important; }
+
+.pl-10 {
+  padding-left: 10px !important; }
+
+.p-small {
+  margin-bottom: 5px; }
+
+.fs-big {
+  font-size: 16px; }
+
+.fs-small {
+  font-size: 13px; }

@@ -67,7 +67,7 @@ table.button {
       text-align: left;
       color: $button-color;
       background: $button-background;
-      border: 2px solid $accent;
+      border: 2px solid $color-accent;
 
       &.radius {
         border-radius: $button-radius;

@@ -38,7 +38,7 @@ $color-danger              :#c9302c;
 // 1. Global
 // ---------
 
-$primary-color: $accent;
+$primary-color: $color-accent;
 $secondary-color: $gray--dark;
 $success-color: $color-success;
 $warning-color: #ffae00;
@@ -132,7 +132,7 @@ $button-color-alt: $medium-gray;
 $button-font-weight: normal;
 $button-margin: 0 0 $global-margin 0;
 $button-background: transparent;
-$button-border: 2px solid $accent;
+$button-border: 2px solid $color-accent;
 $button-radius: 2px;
 $button-rounded: $global-rounded;
 

@@ -25,6 +25,6 @@ gulp.task('inky', ['styles'], function() {
 });
 
 //WATCH
-gulp.task('default',function() {
+gulp.task('default', ['inky'], function() {
     gulp.watch(['./scss/**/*.scss', './templates/**/*.html'],['inky']);
 });
